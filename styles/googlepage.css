@@ -1,0 +1,131 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style-type: none;
+}
+
+
+body {
+	width: 100%;
+	height: 100%;
+}
+
+#header {
+	display: block;
+	color: gray;
+	width: 100%;
+	position: fixed;
+    top: 0;
+    height:60px;
+    font-size: 15px;
+    font-color: #212121;
+
+}
+
+#logo img {
+	
+	width: 300px;
+	position: relative;
+	left:40%;
+}
+
+#logo {
+	width:100%;
+	height:100%;
+	margin-top: 15%;
+}
+
+li {
+	float: right;
+	padding: 10px 10px 10px 10px;
+
+}
+
+#footer {
+	display: block;
+	color: gray;
+	width: 100%;
+	position: fixed;
+    bottom: 0;
+    padding: 5px 5px 5px 5px;
+    background-color: #F5F5F5;
+    font-size: 15px;
+;
+
+}
+
+#right {
+	float:right;
+	margin-right: 25px;
+}
+#left{
+	float:left;
+	margin-left: 25px;
+}
+
+#lbutton {
+	width: 125px;
+	height:40px;
+	background-color: #F5F5F5;
+	font-style: black;
+	position: relative;
+	display: inline-block;
+	margin-left: 520px;
+	margin-top: 30px
+
+}
+
+.buttontext {
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 40px;
+	font-family: arial;
+	font-size: 15px;
+
+}
+
+#rbutton {
+	width: 145px;
+	height:40px;
+	background-color: #F5F5F5;
+	font-style: black;
+	position: relative;
+	display: inline-block;
+	margin-right: 555px;
+	float:right;
+	margin-top:30px;
+
+}
+
+#searcbbar {
+	width: 585px;
+	height:40px;
+	position: relative;
+	display: block;
+	margin-right: auto;
+	margin-left:auto;
+	margin-top:50px;
+	border: solid 1px gray;
+}
+
+#searcbbar img {
+	position:relative;
+	float:right;
+	bottom:0px;
+}
+
+.headertext {
+	margin-top:13px;
+
+}
+
+#header li img {
+	margin-right: 10px;
+	margin-bottom: 22px;
+}
+
+
